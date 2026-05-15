@@ -24,9 +24,6 @@
         "codex",
         "goal",
         "implementation"
-      ],
-      "skills": [
-        "./skills/write-goal-handoff"
       ]
     }
   ]
