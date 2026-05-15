@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "goal-handoff-skills",
+  "owner": {
+    "name": "daisuke-ai"
+  },
+  "description": "Skills for writing execution-ready AI agent handoffs and Codex goal launchers.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "write-goal-handoff",
+      "source": "./",
+      "strict": false,
+      "description": "Write Markdown handoffs that another AI agent can execute through a short Codex /goal launcher.",
+      "version": "1.0.0",
+      "author": {
+        "name": "daisuke-ai"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "handoff",
+        "codex",
+        "goal",
+        "implementation"
+      ],
+      "skills": [
+        "./skills/write-goal-handoff"
+      ]
+    }
+  ]
+}

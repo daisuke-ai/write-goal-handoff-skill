@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Goal Handoff"
+  short_description: "Draft execution handoffs for Codex goals"
+  default_prompt: "Use $write-goal-handoff to turn this plan into a Markdown handoff and a short /goal launcher prompt."
